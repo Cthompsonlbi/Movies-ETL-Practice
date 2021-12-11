@@ -3,7 +3,7 @@ Module 8 Challenge
 
 ## Overview of Project
 
-The overview of this project is to use principles learned during the class exrecise to Etract data, Transform it to a format that is readily usable and readible and Load it to a location that is accessable for data analysis that will be used to assist in decision making. In this case, we are pulling data from Wikipedia and Kaggle data from their respective locations.  We are then processing each data file by removing unnecessary columns, creating uniformed column formatting, performing joins to merge the two data sets together, remove redundant columns, and then upload the finalized clean datasets into a Postgres SQL database.
+The overview of this project is to use principles learned during the class exercise to Extract data, Transform it to a format that is readily usable and readable and Load it to a location that is accessible for data analysis that will be used to assist in decision making. In this case, we are pulling data from Wikipedia and Kaggle data from their respective locations.  We are then processing each data file by removing unnecessary columns, creating uniformed column formatting, performing joins to merge the two data sets together, remove redundant columns, and then upload the finalized clean datasets into a Postgres SQL database.
 
 ### ETL Function Deliverable
 
@@ -32,5 +32,5 @@ For the ETL Clean Kaggle Deliverable we were required to add the following to th
 ### ETL Create Database Deliverable
 For the ETL Create Database Deliverable to do the following:
   * Add to the function code to connect to Postgresql data base using sqlalchemy library and to_sql method.
-  * Using code created to communicate with database, add the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
-  * Verify completion of data transfer and load by running two quieries. One that returns count of rows in Movies table and count of rows in Ratings table.
+  * Using code created to communicate with database, add the movies DataFrame and MovieLens rating CSV data to a SQL database.
+  * Verify completion of data transfer and load by running two queries. One that returns count of rows in Movies table and count of rows in Ratings table.
